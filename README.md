@@ -168,6 +168,8 @@ WARNING: Checking for updates failed (use `--debug` to see full error)
 
 
 
+写不好前端, 只写了基础的调用合约代码~~~
+
 ## 其他
 
 `make connectRemix`:  启动 `remixd` 以便链接到浏览器的remix ide, 以调试solidity
