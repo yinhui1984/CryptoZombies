@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoZombies</title>
+    <!-- jquery.js-->
+    <script language="javascript" type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- web3.js -->
+    <!-- web3.js vs ether.js:  https://coinsbench.com/ethereum-javascript-libraries-for-dapp-development-web3-js-vs-ethers-js-fd7201abcee -->
+    <!-- CSS only -->
+    <!-- https://getbootstrap.com/docs/5.2/getting-started/introduction/#quick-start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<body>
+
+    <button type="button" class="btn btn-outline-success" id="buttonConnect">detect Metamask...</button>
+    <button type="button" class="btn btn-outline-success" id="buttonCreateZombie">Create/Get Zombie</button>
+    <!-- Pet详情 -->
+    <section class="pet-detail-section">
+        <section>
+            <h3 id="labelZombieName">Name:</h3>
+        </section>
+        <section>
+            <h3 id="labelZombieDNA">DNA:</h3>
+        </section>
+        <section>
+            <h3 id="labelZombieLevel">Level:</h3>
+        </section>
+        <section>
+            <h3 id="labelZombieWins">Wins:</h3>
+        </section>
+        <section>
+            <h3 id="labelZombieLosses">Losses:</h3>
+        </section>
+        <section>
+            <h3 id="labelZombieReadyTime">ReadyTime:</h3>
+        </section>
+    </section>
+
+    <script language="javascript" type="module" src="./index.js"></script>
+
+</body>
+
+</html>
