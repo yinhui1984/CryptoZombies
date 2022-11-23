@@ -18,6 +18,8 @@
             "name": "Attach to browser",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}",
+            //退出chrome，然后
+            //以如下方式启动  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 
             "port": 9222
         }
     ]
